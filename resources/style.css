@@ -1,0 +1,101 @@
+html{font-size: 18px;}
+
+body{display: flex;
+  flex-direction: column;
+  align-items: center;}
+
+
+.flex{display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 960px;
+  border: 5px solid red;}
+
+header{display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 30rem;
+  background-image: url(images/glasses-bg.png);
+  padding-top: 1rem;
+  width: 100%;}
+
+
+/*banner*/
+
+.box1{display: flex;
+  justify-content: space-between;
+  width:960px;
+  background-color: cadetblue;
+  color: white;
+  border: solid 3px blue;}
+
+.box1 img{height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;}
+
+.headtitle{display:flex;
+  flex-direction: row;
+  align-items: center;
+  border: solid yellow 3px;}
+
+.headnav{margin-top: 1rem;
+  margin-bottom: 1rem;}
+
+.box1 a{color: white;
+  text-decoration: none;
+  padding-top: 1rem ;
+  margin-right: 2rem;}
+
+.box2{background-color: white;
+  font-size: 2rem;
+  margin-top: 10rem;
+  font-weight: bold;
+  line-height: 1.2;
+  padding: 1.5rem 5rem;
+  border: solid green 2px;}
+
+/*iconbar*/
+
+.iconbar{display: flex;
+  flex-direction: row;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border: 3px dotted gray;}
+
+  .icon{height: 8rem;
+    width: 5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;}
+
+  .i1{width:3.5rem;}
+/*infobar*/
+
+.infobar{display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3rem;
+  border: solid blue 3px}
+
+.info{width: 35%;
+  border: solid 3px red;
+  margin-left: 2.5%;}
+
+.infotitle{font-weight: bold;
+  font-size: 1rem;
+  width: 10rem;
+  padding: .5rem 1.25rem;
+  background-color: cadetblue;
+  color: white;
+  margin-bottom: 1rem;}
+
+
+/*footer*/
+
+footer .flex{background-color: azure;}
+
+footer{display: flex;
+  flex-direction: row;
+  margin-top: 5rem;}
+
+footer img{height: 1.5rem;
+  padding: 4rem 1rem 4rem 4rem;}
